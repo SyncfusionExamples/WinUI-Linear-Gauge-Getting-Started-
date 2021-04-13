@@ -1,0 +1,47 @@
+﻿<Window x:Class="LinearGaugeGettingStartedDesktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="using:LinearGaugeGettingStartedDesktop"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gauge="using:Syncfusion.UI.Xaml.Gauges"
+        mc:Ignorable="d">
+
+    <gauge:SfLinearGauge>
+        <gauge:SfLinearGauge.Axis>
+            <gauge:LinearAxis Maximum="140"
+                              Interval="10">
+                <gauge:LinearAxis.Ranges>
+                    <gauge:LinearGaugeRange StartValue="0"
+                                            EndValue="50"
+                                            Background="Red" />
+                    <gauge:LinearGaugeRange StartValue="50"
+                                            EndValue="100"
+                                            Background="Orange" />
+                    <gauge:LinearGaugeRange StartValue="100"
+                                            EndValue="140"
+                                            Background="Green" />
+                </gauge:LinearAxis.Ranges>
+
+                <gauge:LinearAxis.BarPointers>
+                    <gauge:BarPointer Value="90" />
+                </gauge:LinearAxis.BarPointers>
+
+                <gauge:LinearAxis.MarkerPointers>
+                    <gauge:ShapePointer Value="90"
+                                        VerticalAnchor="End"
+                                        OffsetPoint="0,-8" />
+
+                    <gauge:ContentPointer Value="90"
+                                          VerticalAnchor="End"
+                                          OffsetPoint="0,-28">
+                        <gauge:ContentPointer.Content>
+                            <TextBlock Text="90%" />
+                        </gauge:ContentPointer.Content>
+                    </gauge:ContentPointer>
+
+                </gauge:LinearAxis.MarkerPointers>
+            </gauge:LinearAxis>
+        </gauge:SfLinearGauge.Axis>
+    </gauge:SfLinearGauge>
+</Window>

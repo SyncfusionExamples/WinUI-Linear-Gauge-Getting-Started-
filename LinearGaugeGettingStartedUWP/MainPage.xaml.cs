@@ -2,7 +2,7 @@
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace SfLinearGauge_GettingStarted
+namespace LinearGaugeGettingStartedUWP
 {
     using Microsoft.UI;
     using Microsoft.UI.Xaml.Controls;
