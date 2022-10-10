@@ -1,6 +1,6 @@
 # WinUI Linear Gauge Getting started
 
-This repository contains sample for how to get started with the [Syncfusion WinUI Linear Gauge](https://help.syncfusion.com/winui/linear-gauge/getting-started) control. The WinUI Linear Gauge control is a multipurpose data visualization control that displays numerical values on a linear scale horizontally or vertically.
+This repository contains sample to getting started with the [Syncfusion WinUI Linear Gauge](https://help.syncfusion.com/winui/linear-gauge/getting-started) control. The WinUI Linear Gauge control is a multipurpose data visualization control that displays numerical values on a linear scale horizontally or vertically.
 
 ## Syncfusion controls
 
