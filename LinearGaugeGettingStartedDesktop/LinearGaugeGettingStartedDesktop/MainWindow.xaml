@@ -28,17 +28,17 @@
                 </gauge:LinearAxis.BarPointers>
 
                 <gauge:LinearAxis.MarkerPointers>
-                    <gauge:ShapePointer Value="90"
+                    <gauge:LinearShapePointer Value="90"
                                         VerticalAnchor="End"
                                         OffsetPoint="0,-8" />
 
-                    <gauge:ContentPointer Value="90"
+                    <gauge:LinearContentPointer Value="90"
                                           VerticalAnchor="End"
                                           OffsetPoint="0,-28">
-                        <gauge:ContentPointer.Content>
+                        <gauge:LinearContentPointer.Content>
                             <TextBlock Text="90%" />
-                        </gauge:ContentPointer.Content>
-                    </gauge:ContentPointer>
+                        </gauge:LinearContentPointer.Content>
+                    </gauge:LinearContentPointer>
 
                 </gauge:LinearAxis.MarkerPointers>
             </gauge:LinearAxis>
