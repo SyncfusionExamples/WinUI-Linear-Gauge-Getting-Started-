@@ -10,14 +10,14 @@
 
   <Identity
     Name="c3a974c7-c139-44b1-8292-413d698cf485"
-    Publisher="CN=VasaviShanmugam"
+    Publisher="CN=Syncfusion"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="c3a974c7-c139-44b1-8292-413d698cf485" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>LinearGaugeGettingStartedDesktop</DisplayName>
-    <PublisherDisplayName>VasaviShanmugam</PublisherDisplayName>
+    <PublisherDisplayName>Syncfusion</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
