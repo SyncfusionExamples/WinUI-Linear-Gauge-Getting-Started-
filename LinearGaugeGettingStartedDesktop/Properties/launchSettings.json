@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LinearGaugeGettingStartedDesktop (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LinearGaugeGettingStartedDesktop (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
